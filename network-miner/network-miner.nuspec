@@ -38,12 +38,12 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <authors>NETRESEC Network Security</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://www.netresec.com/?page=NetworkMiner</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/srn-g/ChocolateyPackages/4a1b686ca1c2039ca6d817a0c8d9f7aa5fd82bc2/network-miner/networkminericon.ico</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/srn-g/ChocolateyPackages/39e9b5bfdfc5744182b151ffa9809c967ff8cd8a/network-miner/networkminericon.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is required for the community feed -->
     <licenseUrl>https://www.gnu.org/licenses/old-licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <projectSourceUrl>https://www.netresec.com/?page=NetworkMinerSourceCode</projectSourceUrl>
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <!--<mailingListUrl></mailingListUrl>-->
     <!--<bugTrackerUrl></bugTrackerUrl>-->
