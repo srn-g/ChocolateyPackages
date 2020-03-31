@@ -27,17 +27,17 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
     <version>1.1.0</version>
-    <!-- <packageSourceUrl>Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed</packageSourceUrl>-->
+    <packageSourceUrl>https://github.com/srn-g/ChocolateyPackages/tree/master/apkrepatcher</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>srn</owners>
     <!-- ============================== -->
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
-    <title>apkrepatcher</title>
+    <title>APKRepatcher</title>
     <authors>csanuragjain</authors>
     <!-- projectUrl is required for the community feed -->
-    <projectUrl>https://github.com/csanuragjain/APKRepatcher</projectUrl>
+    <projectUrl>https://cooltrickshome.blogspot.com/2017/03/apkrepatcher-now-decompile-recompile.html</projectUrl>
     <iconUrl>https://rawcdn.githack.com/srn-g/ChocolateyPackages/c96bc2af828181fb16e9633f4971adcf97ac7f3e/apkrepatcher/icon.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is required for the community feed -->
@@ -50,7 +50,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <tags>apkrepatcher apk decompile recompile dex java smali android</tags>
     <summary>Modify your apk code with easy GUI</summary>
     <description>APKRepatcher helps you to modify an existing apk using a simple user friendly GUI. It lets you edit java/smali code from an APK and rewrite the changes back to the modified signed APK. Additionally, it provides you option to convert Dex, Jar, Class, Smali, Class from one format to another.</description>
-    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+    <releaseNotes>Updated dex2jar and apktool jars</releaseNotes>
     <!-- =============================== -->
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
