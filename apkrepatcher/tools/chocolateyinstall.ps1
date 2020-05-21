@@ -1,21 +1,17 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url = 'https://github.com/csanuragjain/APKRepatcher/releases/download/v1.1.0/APKRepatcher.zip'
-$url64 = ''
 
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
   unzipLocation  = $toolsDir
-  fileType       = 'EXE'
+  fileType       = 'ZIP'
   url            = $url
-  url64bit       = $url64
 
   softwareName   = 'apkrepatcher*'
 
-  checksum       = ''
+  checksum       = '9d415be31e2a4f0ff843e2e0e334bf92d7a8b1bf79ddd60ba8b06a5cbe2c5612'
   checksumType   = 'sha256'
-  checksum64     = ''
-  checksumType64 = 'sha256'
 
   silentArgs     = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
   validExitCodes = @(0, 3010, 1641)
