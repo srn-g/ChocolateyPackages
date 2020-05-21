@@ -2,7 +2,7 @@
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
   softwareName   = 'network-miner*'
-  fileType       = 'EXE_MSI_OR_MSU'
+  fileType       = 'ZIP'
   silentArgs     = "/qn /norestart"
   validExitCodes = @(0, 3010, 1605, 1614, 1641)
 }
