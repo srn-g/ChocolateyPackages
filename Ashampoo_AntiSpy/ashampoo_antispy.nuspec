@@ -38,7 +38,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <authors>Ashampoo</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://www.ashampoo.com/en/usd/psr/1004/security-software/antispy-for-windows-10</projectUrl>
-    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/ashampoo_antispy.png</iconUrl>-->
+    <iconUrl>https://rawcdn.githack.com/srn-g/ChocolateyPackages/447d139064c1d1a4ca38573c85945599d4c88026/Ashampoo_AntiSpy/ashampoo_antispy.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is required for the community feed -->
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
